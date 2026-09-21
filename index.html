@@ -4,12 +4,11 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#111827"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>🗽 New York 2026</title>
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon-192.png">
 <style>
 :root{--ink:#172033;--muted:#64748b;--line:#e7e9ee;--soft:#f6f7f9;--dark:#111827;--blue:#e8f3ff;--green:#eaf8ef;--amber:#fff4dc;--red:#fff0ef}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#eef1f5;color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.app{max-width:760px;margin:auto;background:#fff;min-height:100vh;box-shadow:0 0 30px #0000000b}.hero{padding:30px 20px 24px;color:#fff;background:linear-gradient(145deg,#111827 0%,#26344b 60%,#475569 100%)}.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.72;font-weight:800}.hero h1{font-size:32px;line-height:1.05;margin:8px 0 7px}.hero p{margin:0;color:#dbe3ef}.home{padding:12px 16px;background:#f8fafc;border-bottom:1px solid var(--line)}.home strong{font-size:13px}.nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);display:flex;overflow:auto;-webkit-overflow-scrolling:touch}.nav button{border:0;background:#fff;color:var(--muted);font:inherit;font-weight:800;padding:13px 12px;white-space:nowrap}.nav button.active{color:var(--dark);box-shadow:inset 0 -3px var(--dark)}.content{padding:16px}.screen{display:none}.screen.active{display:block}.daynav{display:flex;gap:7px;overflow:auto;margin:0 -2px 14px;padding-bottom:3px}.daynav button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 11px;font-weight:800;white-space:nowrap}.daynav button.sel{background:var(--dark);color:#fff;border-color:var(--dark)}.date{font-size:12px;color:var(--muted);font-weight:900;letter-spacing:.1em;text-transform:uppercase}.title{font-size:27px;line-height:1.08;margin:5px 0 15px}.summary{background:var(--soft);border-radius:16px;padding:13px 14px;margin-bottom:14px;font-size:14px}.timeline{position:relative}.stop{border:1px solid var(--line);border-radius:18px;padding:15px;margin:12px 0;background:#fff}.stophead{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.time{font-size:17px;font-weight:900}.part{font-size:11px;color:var(--muted);font-weight:900;text-transform:uppercase;margin-top:3px}.badge{display:inline-block;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:900;white-space:nowrap}.free{background:var(--green);color:#166534}.ticket{background:var(--amber);color:#92400e}.walk{background:#f0fdf4;color:#166534}.ov{background:var(--blue);color:#075985}.paid{background:var(--amber);color:#92400e}.stop h3{margin:9px 0 8px;font-size:18px}.row{display:flex;gap:10px;margin:9px 0;line-height:1.45}.ico{width:24px;flex:0 0 24px}.label{font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.05em}.address{font-weight:800}.muted{color:var(--muted)}.buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}.btn{display:inline-block;text-decoration:none;background:var(--dark);color:#fff;border-radius:10px;padding:9px 11px;font-weight:800;font-size:13px}.btn.light{background:#f1f5f9;color:var(--ink)}.action{margin-top:11px;border-radius:12px;padding:11px 12px;background:var(--amber);font-size:13px}.action strong{display:block;margin-bottom:3px}.note{background:#f8fafc;border-left:4px solid var(--dark);border-radius:10px;padding:12px;margin:12px 0;font-size:14px}.card{border:1px solid var(--line);border-radius:18px;padding:16px;margin:12px 0}.card h3{margin:0 0 7px}.status{font-size:11px;font-weight:900;letter-spacing:.05em}.status.now{color:#9a3412}.status.later{color:#075985}.status.free{color:#166534}.checklist label{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);align-items:flex-start}.checklist input{width:19px;height:19px;accent-color:#111827;margin-top:1px}.footer{padding:18px 16px 35px;color:var(--muted);font-size:12px}.small{font-size:13px;color:var(--muted)}
+
+.bikechoice{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.bikechoice button{padding:10px 14px;border-radius:10px;border:1px solid #999;background:#fff;color:#111;font-weight:800;cursor:pointer}.bikechoice button.sel{background:#111827;color:#fff}.bikepanel{border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff}.bikepanel h3{margin-top:0}.bikepanel ul{padding-left:22px;line-height:1.55}.bikepanel .note{margin-bottom:0}
 </style></head>
 <body><main class="app">
 <header class="hero"><div class="eyebrow">Familie • vrijdag 25 sep – zaterdag 3 okt 2026</div><h1>🗽 New York 2026</h1><p>Jullie dagelijkse reis-app vanuit Hoboken</p></header>
@@ -27,7 +26,7 @@
 <div id="ov" class="screen"><h2>🚇 OV in 60 seconden</h2><div class="card"><h3>PATH vanuit Hoboken</h3><p><b>Betalen:</b> contactloos met bankpas/creditcard of telefoon bij het poortje via TAPP. Sinds 1 september 2026 worden SmartLink Cards en MetroCards niet meer geaccepteerd op PATH.</p><p><b>Hoboken → World Trade Center:</b> rechtstreeks mogelijk.<br><b>Hoboken → 33rd Street:</b> rechtstreeks op de relevante service.</p><p class="small">De app geeft geen live vertrektijden. Controleer op de dag zelf de PATH Trip Planner.</p><div class="buttons"><a class="btn" href="https://www.panynj.gov/path/en/trip-planner.html/1000" target="_blank">PATH Trip Planner</a><a class="btn light" href="https://www.google.com/maps/search/?api=1&query=Hoboken+PATH+Station" target="_blank">📍 Hoboken PATH</a></div></div>
 <div class="card"><h3>🚇 NYC Subway — OMNY</h3><p>Gebruik contactloze bankpas/creditcard of telefoon. <b>Iedere persoon gebruikt zijn eigen kaart of eigen telefoon</b>, zodat de ritten per persoon worden geregistreerd.</p><p><b>2026:</b> reguliere OMNY-rit $3,00 en wekelijkse OMNY-cap $35 volgens de MTA 2026 fare materials.</p><div class="buttons"><a class="btn" href="https://www.mta.info/" target="_blank">MTA / OMNY</a></div></div>
 <div class="note"><b>Belangrijk:</b> exacte treinfrequenties en eventuele werkzaamheden kunnen wijzigen. Kijk daarom op de dag zelf in PATH/MTA. De app is jullie vaste routeplan, niet een live dienstregeling.</div></div>
-<div id="check" class="screen"><h2>✅ Voor vertrek afvinken</h2><div class="checklist"><label><input type="checkbox"> <span>& Juliet — 4 tickets naast elkaar gekocht</span></label><label><input type="checkbox"> <span>Beslist of we het 9/11 Museum bezoeken</span></label><label><input type="checkbox"> <span>9/11 Museum — tickets gekocht als we gaan</span></label><label><input type="checkbox"> <span>Iedereen heeft eigen contactloze bankpas/telefoon voor OV</span></label><label><input type="checkbox"> <span>MoMA — actuele prijs gecontroleerd</span></label><label><input type="checkbox"> <span>Restaurant voor donderdag 1 oktober gekozen</span></label><label><input type="checkbox"> <span>Vluchtgegevens gekoppeld aan vertrekdag 3 oktober</span></label></div><div class="note">De vinkjes worden op dit toestel bewaard, ook nadat de app is gesloten.</div></div>
+<div id="check" class="screen"><h2>✅ Voor vertrek afvinken</h2><div class="checklist"><label><input type="checkbox"> <span>& Juliet — 4 tickets naast elkaar gekocht</span></label><label><input type="checkbox"> <span>Beslist of we het 9/11 Museum bezoeken</span></label><label><input type="checkbox"> <span>9/11 Museum — tickets gekocht als we gaan</span></label><label><input type="checkbox"> <span>Iedereen heeft eigen contactloze bankpas/telefoon voor OV</span></label><label><input type="checkbox"> <span>MoMA — actuele prijs gecontroleerd</span></label><label><input type="checkbox"> <span>Restaurant voor donderdag 1 oktober gekozen</span></label><label><input type="checkbox"> <span>Vluchtgegevens gekoppeld aan vertrekdag 3 oktober</span></label></div><div class="note">De vinkjes blijven alleen zolang deze pagina open blijft. Voor blijvende opslag kunnen we later een echte installeerbare PWA-versie maken.</div></div>
 </section><div class="footer">New York 2026 • Praktische familieplanning • Links openen de officiële informatie of Google Maps.</div>
 </main>
 <script>
@@ -96,83 +95,13 @@ const days=[
 ];
 function mapBtn(url){return url?`<a class="btn light" href="${url}" target="_blank">📍 Google Maps</a>`:''}
 function badge(type){let c=type==='GRATIS'?'free':type==='TICKET'?'ticket':type==='OV'?'ov':type==='LOPEN'?'walk':type==='BETAALD'?'paid':'';return `<span class="badge ${c}">${type}</span>`}
+function renderBikeWednesday(i){let d=days[i];return `<div class="daynav">${days.map((x,j)=>`<button class="${j===i?'sel':''}" onclick="showDay(${j})">${x.date}</button>`).join('')}</div><div class="date">${d.date} 2026</div><h2 class="title">Woensdag 30 september — kies het programma</h2><div class="summary">Twee scenario’s voor vandaag. Kies de fietstocht met Scott of behoud het bestaande programma zonder fietsen.</div><div class="bikechoice"><button id="bikeA" class="sel" onclick="showWedScenario('bike')">🚲 Scott's Ultimate NYC Bike Tour</button><button id="bikeB" onclick="showWedScenario('normal')">🗽 Programma zonder fietsen</button></div><div id="wedScenario"></div>`}
+function bikeHtml(){return `<div class="bikepanel"><h3>🚲 Scott's Ultimate NYC Bike Tour</h3><p><b>Voor wie:</b> met z'n vieren. Intensieve 1-daagse fietstocht van circa 6+ uur en ongeveer 25 mijl/40 km, met meerdere stops en een korte lunchpauze.</p><div class="note"><b>Belangrijk:</b> exacte start- en eindtijd en het startpunt kunnen variëren. Controleer dit bij het boeken.</div><ul><li><b>08:00</b> Ontbijt in Airbnb.</li><li><b>08:45</b> Vertrek uit Hoboken richting afgesproken startpunt.</li><li><b>±09:30–16:00</b> 🚲 Scott's Ultimate NYC Bike Tour.</li><li><b>Onderweg:</b> korte lunchpauze; lunch is niet inbegrepen.</li><li><b>Highlights:</b> Central Park → Times Square → St Patrick's Cathedral → Rockefeller Center → New York Public Library → Grand Central → Washington Square Park → Chinatown → Brooklyn Bridge → DUMBO → Wall Street → Battery Park → World Trade Center → Hudson River Park → Hudson Yards/Vessel. Exacte volgorde kan wijzigen.</li><li><b>±16:00–16:30</b> Einde tour / terugreis naar Hoboken.</li><li><b>±18:00</b> Diner in Hoboken of thuis koken; geen extra sightseeing plannen.</li></ul><div class="action"><strong>🎟️ Vooraf reserveren</strong>Fiets, helm en snack zijn volgens het huidige programma inbegrepen. Controleer prijs, startpunt en tijden bij reserveren.</div></div>`}
+function normalWedHtml(){let d=days[5];return `<div class="timeline">${d.stops.map(s=>`<article class="stop"><div class="stophead"><div><div class="time">${s[0]}</div><div class="part">${s[4]}</div></div>${badge(s[6])}</div><h3>${s[1]}</h3><div class="row"><div class="ico">${s[2]}</div><div><div class="label">Adres</div><div class="address">${s[3]}</div></div></div><div class="row"><div class="ico">🚇</div><div><div class="label">Hoe komen we er?</div><div><b>${s[4]}</b><br>${s[5]}</div></div></div>${s[6]==='TICKET'?`<div class="action"><strong>🎟️ Ticketactie</strong>Vooraf regelen. Zie tabblad <b>Tickets</b> voor de officiële aankooplink.</div>`:''}<div class="buttons">${mapBtn(s[7])}</div></article>`).join('')}</div>`}
+function showWedScenario(which){let box=document.getElementById('wedScenario');if(!box)return;box.innerHTML=which==='bike'?bikeHtml():normalWedHtml();let a=document.getElementById('bikeA'),b=document.getElementById('bikeB');if(a&&b){a.classList.toggle('sel',which==='bike');b.classList.toggle('sel',which==='normal')}}
 function renderDay(i){let d=days[i];return `<div class="daynav">${days.map((x,j)=>`<button class="${j===i?'sel':''}" onclick="showDay(${j})">${x.date}</button>`).join('')}</div><div class="date">${d.date} 2026</div><h2 class="title">${d.title}</h2><div class="summary">${d.summary}</div><div class="timeline">${d.stops.map(s=>`<article class="stop"><div class="stophead"><div><div class="time">${s[0]}</div><div class="part">${s[4]}</div></div>${badge(s[6])}</div><h3>${s[1]}</h3><div class="row"><div class="ico">${s[2]}</div><div><div class="label">Adres</div><div class="address">${s[3]}</div></div></div><div class="row"><div class="ico">🚇</div><div><div class="label">Hoe komen we er?</div><div><b>${s[4]}</b><br>${s[5]}</div></div></div>${s[6]==='TICKET'?`<div class="action"><strong>🎟️ Ticketactie</strong>Vooraf regelen. Zie tabblad <b>Tickets</b> voor de officiële aankooplink.</div>`:''}<div class="buttons">${mapBtn(s[7])}</div></article>`).join('')}</div>`}
 const nav=document.getElementById('mainNav');nav.innerHTML=`<button class="active" onclick="showScreen('planning',this)">🗓️ Planning</button><button onclick="showScreen('tickets',this)">🎟️ Tickets</button><button onclick="showScreen('ov',this)">🚇 OV</button><button onclick="showScreen('check',this)">✅ Klaarzetten</button>`;
-const planning=document.getElementById('planning');function showDay(i){planning.innerHTML=renderDay(i);showScreen('planning',document.querySelector('.nav button'));window.scrollTo({top:0,behavior:'smooth'})}function showScreen(id,btn){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));if(btn)btn.classList.add('active');window.scrollTo({top:0,behavior:'smooth'})}showDay(0);
-</script>
-<section id="wednesday-bike-tabs" style="margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:16px;">
-  <h2>🚲 Woensdag 30 september — twee scenario's</h2>
-  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;">
-    <button onclick="showBikeTab('bike')" id="btn-bike" style="padding:10px 14px;border-radius:10px;border:1px solid #999;background:#111;color:#fff;cursor:pointer;">
-      🚲 Scott's Ultimate NYC Bike Tour
-    </button>
-    <button onclick="showBikeTab('normal')" id="btn-normal" style="padding:10px 14px;border-radius:10px;border:1px solid #999;background:#fff;color:#111;cursor:pointer;">
-      🗽 Huidig programma – zonder fietsen
-    </button>
-  </div>
-
-  <div id="tab-bike">
-    <h3>🚲 Scenario A — Scott's Ultimate NYC Bike Tour</h3>
-    <p><strong>Voor wie:</strong> met z'n vieren. Dit is de intensieve 1-daagse Ultimate NYC Bike Tour van Scott's New York: circa 6+ uur en ongeveer 25 mijl/40 km. Scott beschrijft de tour als geschikt voor zelfverzekerde stedelijke fietsers; er zijn meerdere stops en een korte lunchpauze.</p>
-    <p><strong>Belangrijk:</strong> de exacte start- en eindtijd en het startpunt kunnen variëren. Scott vermeldt dat de tour meestal in Midtown begint en in Lower Manhattan eindigt, maar dit kan worden aangepast. Controleer dit bij het boeken.</p>
-    <div style="padding:12px;background:#f6f6f6;border-radius:10px;">
-      <strong>Dagindeling</strong>
-      <ul>
-        <li><strong>08:00</strong> Ontbijt in Airbnb.</li>
-        <li><strong>08:45</strong> Vertrek uit Hoboken richting het afgesproken startpunt.</li>
-        <li><strong>±09:30–16:00</strong> 🚲 Scott's Ultimate NYC Bike Tour.</li>
-        <li><strong>Onderweg:</strong> korte lunchpauze; Scott noemt o.a. pizza in Little Italy of Chinatown als optie. Lunch is niet inbegrepen.</li>
-        <li><strong>Route/highlights:</strong> Central Park → Times Square → St Patrick's Cathedral → Rockefeller Center → New York Public Library → Grand Central → Washington Square Park → Chinatown → Brooklyn Bridge → DUMBO → Wall Street → Battery Park → World Trade Center → Hudson River Park → Hudson Yards/Vessel. De exacte volgorde kan worden aangepast.</li>
-        <li><strong>±16:00–16:30</strong> Einde tour / terugreis naar Hoboken, afhankelijk van het afgesproken eindpunt.</li>
-        <li><strong>±18:00</strong> Diner in Hoboken of thuis koken; na 6+ uur fietsen geen extra sightseeing plannen.</li>
-      </ul>
-    </div>
-    <p><strong>🎟️ Ticket:</strong> vooraf reserveren. Scott vermeldt momenteel $159 inclusief fiets, helm en snack op zijn eigen site. De Ultimate tour is een stevige rit; neem water, comfortabele kleding en zonnebescherming mee.</p>
-  </div>
-
-  <div id="tab-normal" style="display:none;">
-    <h3>🗽 Scenario B — huidig programma zonder fietsen</h3>
-    <p>Dit scenario blijft volledig behouden als jullie niet gaan fietsen.</p>
-    <div style="padding:12px;background:#f6f6f6;border-radius:10px;">
-      <ul>
-        <li><strong>09:00</strong> Ontbijt in Airbnb.</li>
-        <li><strong>10:00</strong> Vertrek naar Manhattan.</li>
-        <li><strong>10:30–12:00</strong> Greenwich Village / Washington Square Park.</li>
-        <li><strong>12:00–13:30</strong> West Village + lunch onderweg.</li>
-        <li><strong>13:30–16:00</strong> SoHo: architectuur, winkels en rondlopen.</li>
-        <li><strong>16:00–17:00</strong> Little Italy.</li>
-        <li><strong>17:00–19:00</strong> Chinatown + vroeg diner onderweg.</li>
-        <li><strong>±19:00</strong> Terug naar Hoboken.</li>
-      </ul>
-    </div>
-    <p><strong>🍽️ Eten:</strong> ontbijt thuis; lunch onderweg; vroeg diner in Chinatown; daarna naar Hoboken.</p>
-  </div>
-
-  <p style="margin-top:14px;font-size:.9em;"><strong>Bron Scott's New York:</strong> de Ultimate-tour is volgens Scott circa 25 mijl/40 km, 6+ uur, met meerdere stops en een korte lunchpauze.</p>
-</section>
-
-<script>
-function showBikeTab(tab){
-  document.getElementById('tab-bike').style.display = tab === 'bike' ? 'block' : 'none';
-  document.getElementById('tab-normal').style.display = tab === 'normal' ? 'block' : 'none';
-  document.getElementById('btn-bike').style.background = tab === 'bike' ? '#111' : '#fff';
-  document.getElementById('btn-bike').style.color = tab === 'bike' ? '#fff' : '#111';
-  document.getElementById('btn-normal').style.background = tab === 'normal' ? '#111' : '#fff';
-  document.getElementById('btn-normal').style.color = tab === 'normal' ? '#fff' : '#111';
-}
+const planning=document.getElementById('planning');function showDay(i){planning.innerHTML=(i===5?renderBikeWednesday(i):renderDay(i));showScreen('planning',document.querySelector('.nav button'));if(i===5)showWedScenario('bike');window.scrollTo({top:0,behavior:'smooth'})}function showScreen(id,btn){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));if(btn)btn.classList.add('active');window.scrollTo({top:0,behavior:'smooth'})}showDay(0);
 </script>
 
-
-<script>
-// Bewaar checklist lokaal op ieder toestel
-document.querySelectorAll('.checklist input[type="checkbox"]').forEach((box, i) => {
-  const key = 'ny2026-check-' + i;
-  box.checked = localStorage.getItem(key) === '1';
-  box.addEventListener('change', () => localStorage.setItem(key, box.checked ? '1' : '0'));
-});
-// Offline/PWA ondersteuning
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js'));
-}
-</script>
 </body></html>
