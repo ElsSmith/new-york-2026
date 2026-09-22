@@ -43,10 +43,10 @@
 <div class="card"><h3>Za 3 okt</h3><p>🏠 Ontbijt • uitchecken • luchthaven. Geen restaurantplanning.</p></div>
 <div class="note">Richtprijzen zijn indicatief. In de VS komen sales tax en bij bediening doorgaans fooi boven op de menuprijs.</div></div><div id="check" class="screen"><h2>✅ Voor vertrek afvinken</h2><div class="checklist">
 <label><input type="checkbox"> <span>& Juliet — 4 tickets naast elkaar gekocht</span></label>
-<label><input type="checkbox"> <span>9/11 Museum — 4 tickets + tijdslot gekocht</span></label>
-<label><input type="checkbox"> <span>Intrepid — 4 tickets + tijdslot rond 12:00 gekocht</span></label>
-<label><input type="checkbox"> <span>MoMA — 3 tickets gekocht voor maandag</span></label>
-<label><input type="checkbox"> <span>Top of the Rock — 4 tickets rond 18:15–18:30 gekocht</span></label>
+<label><input type="checkbox"> <span>9/11 Museum — 4 tickets + tijdslot nog reserveren</span></label>
+<label><input type="checkbox"> <span>Intrepid — 4 tickets + tijdslot rond 12:00 nog reserveren</span></label>
+<label><input type="checkbox"> <span>MoMA — 3 tickets voor maandag 28 september nog reserveren</span></label>
+<label><input type="checkbox"> <span>Top of the Rock — 4 tickets rond 18:15–18:30 nog reserveren</span></label>
 <label><input type="checkbox"> <span>Holland Bikes Downtown Tour – 4 plaatsen + fietsen tot 17:00 nog reserveren</span></label>
 <label><input type="checkbox"> <span>Iedereen heeft eigen contactloze bankpas/telefoon voor OV</span></label>
 <label><input type="checkbox"> <span>Voor San Gennaro en AQUA COSMOS geen ticket nodig</span></label>
@@ -83,7 +83,7 @@ const days=[
 ['10:00–12:00','Central Park: The Mall → Bethesda Terrace → The Lake → Strawberry Fields','🌳','Central Park, New York, NY','LOPEN','Alles te voet.','GRATIS','https://www.google.com/maps/search/?api=1&query=Bethesda+Terrace+Central+Park'],
 ['12:00–13:00','Lunch','🥐','Central Park South / Midtown, New York, NY','LOPEN','Bakery/café onderweg.','BETAALD','https://www.google.com/maps/search/?api=1&query=Columbus+Circle+bakery+New+York'],
 ['13:00–15:00','🎨 MoMA — 3 personen','🎨','11 W 53rd St, New York, NY 10019','TICKET','Reserveer vooraf. Dochter gaat niet mee en heeft eigen Midtown-programma.','TICKET','https://visit.moma.org/select'],
-  ['13:00–15:00','⭐ MoMA Highlights','🎨','Museum of Modern Art, 11 W 53rd St, New York, NY 10019','OPEN','Van Gogh – The Starry Night (Floor 5, Gallery 501) • Picasso – Les Demoiselles d’Avignon (Floor 5, Gallery 502) • Monet – Water Lilies (Floor 5, Gallery 515) • Meret Oppenheim – Object (Floor 5, Gallery 517) • Andy Warhol – Campbell’s Soup Cans (Floor 4). Begin op Floor 5 en ga daarna naar Floor 4.','GRATIS',''],
+['13:00–15:00','⭐ MoMA Highlights','🎨','Museum of Modern Art, 11 W 53rd St, New York, NY 10019','','Van Gogh – The Starry Night (Floor 5, Gallery 501) • Picasso – Les Demoiselles d’Avignon (Floor 5, Gallery 502) • Monet – Water Lilies (Floor 5, Gallery 515) • Meret Oppenheim – Object (Floor 5, Gallery 517) • Andy Warhol – Campbell’s Soup Cans (Floor 4). Begin op Floor 5 en ga daarna naar Floor 4.','',''],
 ['13:00–15:00','Dochter: 5th Avenue → Rockefeller Center → St Patrick’s','🛍️','Rockefeller Center, New York, NY','LOPEN','Zelfstandig in de directe omgeving; om 15:00 weer aansluiten bij Rockefeller Center.','GRATIS','https://www.google.com/maps/search/?api=1&query=Rockefeller+Center+New+York'],
 ['15:00','Samen: Rockefeller Center → St Patrick’s → 5th Avenue','🏙️','Rockefeller Center, New York, NY','LOPEN','Vanaf ontmoetingspunt samen verder.','GRATIS','https://www.google.com/maps/search/?api=1&query=Rockefeller+Center+New+York'],
 ['15:45','🚡 Roosevelt Island Tramway — retour voor de beleving','🚡','59th St & 2nd Ave, New York, NY','LOPEN + TRAM','Loop naar tram. Korte rit over East River en daarna direct terug. Normaal MTA/OMNY-tarief; geen vooraf ticket.','OV','https://www.google.com/maps/search/?api=1&query=Roosevelt+Island+Tramway+59th+Street+2nd+Avenue+New+York'],
@@ -103,7 +103,7 @@ const days=[
 ['±21:45','Terug naar Hoboken','🚇','33rd Street PATH Station, New York, NY','LOPEN + PATH','Loop naar PATH; route/laatste verbinding controleren.','OV','https://www.google.com/maps/search/?api=1&query=33rd+Street+PATH+Station']]},
 {date:'30 SEP',title:'🚲 Holland Bikes Downtown Tour',summary:'Holland Bikes Downtown Tour van 10:00–12:30. Daarna houden we de fietsen tot 17:00 voor onze eigen route via IKEA Brooklyn en Red Hook. Geen aparte Brooklyn-sightseeing meer nodig.',stops:[
 ['08:30','Hoboken → Midtown Manhattan','🚇','Hoboken PATH Station','PATH','Neem PATH richting 33rd St; Holland Bikes vermeldt het exacte startpunt bij reservering.','OV','https://www.google.com/maps/search/?api=1&query=Hoboken+PATH+Station'],
-['±09:30–15:30','🚲 Holland Bikes Downtown Tour','🚲','Startpunt: 131 Concord Street, Brooklyn; aanwezig om 09:45','TICKET','tour 10:00–12:30; fietsen daarna tot 17:00. Confident urban cyclists; bike + helmet inbegrepen. Na de tour houden we de fietsen tot 17:00 voor IKEA Brooklyn en Red Hook.','TICKET','https://tours-rentals.hollandbikes.com/en/bike-tours/new-york/downtown'],['±15:30–16:30','Terug naar Hoboken / rust','🏠','50 Bloomfield St, Hoboken, NJ 07030','PATH','Na de tour terug naar Hoboken.','OV','https://www.google.com/maps/search/?api=1&query=Hoboken+PATH+Station'],
+['09:45–17:00','🚲 Holland Bikes Downtown Tour','🚲','Startpunt: 131 Concord Street, Brooklyn; aanwezig om 09:45','TICKET','tour 10:00–12:30; fietsen daarna tot 17:00. Confident urban cyclists; bike + helmet inbegrepen. Na de tour houden we de fietsen tot 17:00 voor IKEA Brooklyn en Red Hook.','TICKET','https://tours-rentals.hollandbikes.com/en/bike-tours/new-york/downtown'],['17:00–18:00','Terug naar Hoboken / rust','🏠','50 Bloomfield St, Hoboken, NJ 07030','PATH','Na de tour terug naar Hoboken.','OV','https://www.google.com/maps/search/?api=1&query=Hoboken+PATH+Station'],
 ['Avond','Zelf koken / vrije avond','🍽️','50 Bloomfield St, Hoboken, NJ 07030','LOPEN','Na de tour: lunch bij IKEA Brooklyn, daarna fietsen door Red Hook en uiterlijk 17:00 de fietsen terugbrengen.','GRATIS','']]},
 {date:'1 OKT',title:'Greenwich Village + West Village + SoHo + Little Italy + Chinatown',summary:'Wandeldag door de zuidelijke wijken. Brooklyn laten we bewust weg: dat hebben jullie woensdag al op de fiets gezien.',stops:[
 ['09:30','Hoboken → 14th Street','🚇','Hoboken PATH Station','PATH','PATH naar 14th St; daarna te voet.','OV','https://www.google.com/maps/search/?api=1&query=Hoboken+PATH+Station'],
